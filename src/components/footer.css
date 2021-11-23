@@ -1,0 +1,25 @@
+.mainFooter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #2f3c4c;
+    color: #fff;
+
+}
+
+.subList{
+    list-style: none;
+}
+
+.subList li{
+    margin-bottom: 10px;
+}
+
+.left_side {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    /* background-color: #2f3c4c; */
+    justify-content: space-evenly;
+    flex: 50%;
+  }

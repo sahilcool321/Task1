@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 157, 127);
+    padding: 20px;
+}
+
+
+img{
+    width:50px;
+     height:50px;
+}
+
+.navItems{
+    display: flex;
+    margin: 25px;
+}
+
+.navChild{
+    margin-left: 150px;
+}
+
+.subsubMenu{
+    padding:  20px 0px 20px;
+    margin: -15px;
+    margin-top: 20px
+}
+
+.subMenu {
+    /* display: flex;
+    justify-content: space-between; */
+    list-style: none;
+}
+
