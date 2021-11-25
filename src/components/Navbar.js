@@ -80,13 +80,14 @@ function Navbar() {
                 className="navChild"
                 onMouseEnter={() => MouseOver(data.id)}
                 onMouseLeave={MouseOut()}
+                key={data.id}
               >
                 {data.name} &#9660;
                 {data.children && data.children.length > 0 && (
                   <div className="subMenu">
                     
                     {data.children.map((indata) => {
-                      return <li className="subsubMenu">{indata.name}</li>;
+                      return <li className="subsubMenu" key={indata.id}>{indata.name}</li>;
                     })}
                   </div>
                 )}

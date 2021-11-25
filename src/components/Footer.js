@@ -32,18 +32,18 @@ function Footer() {
         </div>
         <div>
           <h2>Social Media</h2>
-          <div class="left_side">
+          <div className="left_side">
             <li>
-              <i class="fab fa-facebook lefti"></i>
+              <i className="fab fa-facebook lefti"></i>
             </li>
             <li>
-              <i class="fab fa-twitter"></i>
+              <i className="fab fa-twitter"></i>
             </li>
             <li>
-              <i class="fab fa-instagram"></i>
+              <i className="fab fa-instagram"></i>
             </li>
             <li>
-              <i class="fab fa-pinterest"></i>
+              <i className="fab fa-pinterest"></i>
             </li>
           </div>
         </div>
