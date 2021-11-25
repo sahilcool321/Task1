@@ -1,8 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 .container{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     background-color: rgb(255, 157, 127);
     padding: 20px;
+    /* width: 100%; */
 }
 
 
@@ -13,6 +20,7 @@ img{
 
 .navItems{
     display: flex;
+    flex-wrap: wrap;
     margin: 25px;
 }
 
@@ -35,3 +43,52 @@ img{
     
 }
 
+@media screen and (max-width: 1370px){
+    .container{
+        /* background-color: blue; */
+        display:flex;
+        flex-direction:column;
+    }
+    .svgPic{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .navItems{
+        display: inline-block;
+        /* flex-direction: column; */
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        font-size: 20px;
+    }
+    .navChild{
+        margin-bottom: 25px;
+    }
+    .svgPic{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+}
+
+
+@media screen and (max-width: 455px) {
+    .navChild {
+        /* background-color: blueviolet; */
+      margin-bottom: 18px;
+      font-size: 16px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+  }
+
+ 

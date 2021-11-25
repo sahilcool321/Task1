@@ -72,7 +72,7 @@ function Navbar() {
   return (
     <>
       <div className="container">
-        <img src={"http://s.cdpn.io/3/kiwi.svg"} alt="logo" />
+        <img className="svgPic" src={"http://s.cdpn.io/3/kiwi.svg"} alt="logo" />
         <div className="navItems">
           {mainData.map((data) => {
             return (
@@ -87,7 +87,7 @@ function Navbar() {
                   <div className="subMenu">
                     
                     {data.children.map((indata) => {
-                      return <li className="subsubMenu" key={indata.id}>{indata.name}</li>;
+                      return <li className="subsubMenu">{indata.name}</li>;
                     })}
                   </div>
                 )}

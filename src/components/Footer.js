@@ -8,26 +8,26 @@ function Footer() {
         <div>
           <h2>Contact Us</h2>
           <div className="subList">
-            <li>Dummy Contact 1</li>
-            <li>Dummy Contact 2</li>
-            <li>Dummy Contact 3</li>
+            <li>Contact 1</li>
+            <li>Contact 2</li>
+            <li>Contact 3</li>
           </div>
         </div>
 
         <div>
           <h2>About Us</h2>
           <div className="subList">
-            <li>Dummy About Us 1</li>
-            <li>Dummy About Us 2</li>
-            <li>Dummy About Us 3</li>
+            <li>About Us 1</li>
+            <li>About Us 2</li>
+            <li>About Us 3</li>
           </div>
         </div>
         <div>
           <h2>Services</h2>
           <div className="subList">
-            <li>Dummy Services 1</li>
-            <li>Dummy Services 2</li>
-            <li>Dummy Services 3</li>
+            <li>Services 1</li>
+            <li>Services 2</li>
+            <li>Services 3</li>
           </div>
         </div>
         <div>
