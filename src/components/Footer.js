@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
       <div className="mainFooter">
-        <div>
+        <div className="headingFooter">
           <h2>Contact Us</h2>
           <div className="subList">
             <li>Contact 1</li>
@@ -14,7 +14,7 @@ function Footer() {
           </div>
         </div>
 
-        <div>
+        <div className="headingFooter">
           <h2>About Us</h2>
           <div className="subList">
             <li>About Us 1</li>
@@ -22,7 +22,7 @@ function Footer() {
             <li>About Us 3</li>
           </div>
         </div>
-        <div>
+        <div className="headingFooter">
           <h2>Services</h2>
           <div className="subList">
             <li>Services 1</li>
@@ -30,9 +30,9 @@ function Footer() {
             <li>Services 3</li>
           </div>
         </div>
-        <div>
+        <div className="headingFooter">
           <h2>Social Media</h2>
-          <div className="left_side">
+          <div className="socialMediaIcons">
             <li>
               <i className="fab fa-facebook lefti"></i>
             </li>
