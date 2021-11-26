@@ -26,7 +26,8 @@ img{
 }
 
 .navChild{
-    margin-left: 150px;
+    /* margin-left: 150px; */
+    text-align: center;
 }
 
 .subsubMenu{
